@@ -2,26 +2,53 @@ import React, { Component } from 'react';
 import './mud_log.css'
 
 class Mud_Login extends Component {
-    render() { 
+    render() {
         return (
-            <div>
+            <div className='mud-login-page'>
 
-            <div className='left-side'>
-                <div className='top'>
-                <button type="button" class="btn btn-secondary">Secondary</button>
-                <button></button>
+                <div className='left-side'>
+
+                    <div className='top'>
+                        <button type="button" className="btn btn-secondary">Back</button>
+                        <h1>Welcome  !</h1>
+                    </div>
+
+                    <div className='logo'>
+                        <h1>My Village</h1>
+                    </div>
+
+                    <div className='bottom'>
+                        <h4>“Keeping you connected to your village”</h4>
+                    </div>
+
                 </div>
-                <div className='middle'></div>
-                <div className='bottom'></div>
-            </div>
 
-            <div className='right-side'>
+                <div className='right-side'>
+                    <div className='mud-login'>
+                        <h2>Mudugudu Login</h2>
 
-            </div>
+                        <form>
+
+                            <div className="container">
+                                <label for="uname"><b>Telphone Number</b></label>
+                                <input type="text" placeholder="+250" name="uname" />
+
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" />
+                            </div>
+
+                            <div className="log-btn">
+                            <button type="submit">Login</button>
+                            </div>
+                            
+                        </form>
+
+                    </div>
+                </div>
 
             </div>
         );
     }
 }
- 
+
 export default Mud_Login;
