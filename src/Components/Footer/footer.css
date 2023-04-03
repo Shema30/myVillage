@@ -1,0 +1,143 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    /* display: flex;
+    align-items: flex-end; */
+  }
+  footer {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: #a7a7a7;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  h3 {
+    width: 100%;
+    text-align: left;
+    color: #a7a7a7;
+    font-size: 1.4em;
+    white-space: nowrap;
+  }
+
+  footer * {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+
+  /* =================Columns Gridding================ */
+  /* .row {
+    padding: 1em 1em;
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  } */
+
+
+
+  /* ================Footer-Logo============================ */
+  .footer-logo {
+    font-family: 'Sacramento', cursive;
+    color: #a7a7a7;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 30px;
+  }
+
+  .footer-logo:hover {
+    color: #fff;
+  }
+
+  /* =====================U-lists========================== */
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    color: #fff;;
+  }
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+
+  /* ==========Columns============= */
+
+  .column {
+    padding: 1.5rem;
+  }
+
+  /* =============Input Buttons============== */
+  input,
+  button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  button {
+    background-color: #c7940a;
+    color: #ffffff;
+  }
+
+  /* =======================Social-media===================== */
+  div.social {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.4em;
+    flex-direction: row;
+  }
+  .social i {
+    color: #a7a7a7;
+  }
+  .social i:hover {
+    color: #ffffff;
+  }
+  
+
+  /* ==================Copyright=========================== */
+  .copyright {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .copyright p {
+    font-size: 1em;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .footer-logo {
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .footer-logo {
+        text-align: center;
+    }
+  }
